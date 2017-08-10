@@ -50,8 +50,8 @@
       ".*": "<rootDir>/node_modules/babel-jest"
     },
     "collectCoverageFrom": [
-      "**/src/starup/*.js",
       "**/src/**/*.{js,jsx}",
+      "!**/src/startup/**/*.{js,jsx}",
       "!**/node_modules/**",
       "!**/out/**",
       "!**/coverage/**",
