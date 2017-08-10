@@ -1,5 +1,8 @@
 [![CircleCI](https://circleci.com/gh/rayk/open-criticide.svg?style=shield)](https://circleci.com/gh/rayk/open-criticide) [![Dependency Status](https://www.versioneye.com/user/projects/598bef876725bd39d78671bb/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/598bef876725bd39d78671bb) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/0a0bbe98a1084ad5a470aa995c04e950)](https://www.codacy.com/app/taipan.king/open-criticide?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=rayk/open-criticide&amp;utm_campaign=Badge_Grade) [![Coverage Status](https://coveralls.io/repos/github/rayk/open-criticide/badge.svg)](https://coveralls.io/github/rayk/open-criticide)
 ---
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/0a0bbe98a1084ad5a470aa995c04e950)](https://www.codacy.com/app/taipan.king/open-criticide?utm_source=github.com&utm_medium=referral&utm_content=rayk/open-criticide&utm_campaign=badger)
+
 # Open Criticide
 
 ### Project Task
