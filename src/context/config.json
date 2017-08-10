@@ -1,0 +1,17 @@
+{
+  "name": "criticide",
+  "productName": "Criticide",
+  "version": "0.0.1",
+  "description": "Criticide Probability Engine Desktop Application.",
+  "experimentalFeatures": true,
+  "released": "Mon Jun 05 2017 14:19:31 GMT+1000 (AEST)",
+  "rollBarMain": "b6cedc15e5b94d88a74cd6f0cbf579e5",
+  "rollBarRenderer": "2509240345f14c718038f8a7018c11a9",
+  "scrollBounce": true,
+  "windowDefaultHeight":800,
+  "windowDefaultWidth":1024,
+  "windowMainContent": "startup/index.html",
+  "windowMinHeight":600,
+  "windowMinWidth":1024,
+  "windowTitle": "Criticide"
+}

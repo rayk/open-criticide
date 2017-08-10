@@ -1,0 +1,21 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "targets": {
+          "node": 8
+        },
+        "useBuiltIns": true
+      }
+    ],
+    "react", "es2015"
+  ],
+  "plugins": [
+    "react-hot-loader/babel",
+    "transform-es2015-classes",
+    "transform-inline-imports-commonjs",
+    "transform-object-rest-spread",
+    "transform-async-to-generator"
+  ]
+}

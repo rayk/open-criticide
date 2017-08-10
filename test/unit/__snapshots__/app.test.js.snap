@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Output HTML for the application. Welcome message snapshot. 1`] = `
+<div>
+  <h2>
+    Welcome to Criticide App.
+  </h2>
+</div>
+`;
