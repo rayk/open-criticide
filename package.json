@@ -39,7 +39,7 @@
       "url": "https://github.com/rayk"
     }
   ],
-  "license": "MPL-2.0",
+  "license": "AGPL-3.0",
   "jest": {
     "verbose": true,
     "collectCoverage": true,

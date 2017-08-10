@@ -1,0 +1,23 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:8.1.4
+    working_directory: ~/repo
+
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+          - deps-{{ checksum "package.json" }}-{{ .Branch }}
+          - deps
+      - run: yarn install
+      - save_cache:
+          paths:
+            -node_modules
+          key: dep-{{ checksum "package.json }}-{{ .Branch }}
+      - run: yarn run testCi
+      - store_test_results:
+          path: ~/repo/coverage
+      - store_artifacts:
+          path: ~/repo/coverage
