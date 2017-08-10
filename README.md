@@ -1,5 +1,8 @@
 
 ---
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/0a0bbe98a1084ad5a470aa995c04e950)](https://www.codacy.com/app/taipan.king/open-criticide?utm_source=github.com&utm_medium=referral&utm_content=rayk/open-criticide&utm_campaign=badger)
+
 # Open Criticide
 
 ### Project Task
