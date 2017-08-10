@@ -1,4 +1,4 @@
-
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/0a0bbe98a1084ad5a470aa995c04e950)](https://www.codacy.com/app/taipan.king/open-criticide?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=rayk/open-criticide&amp;utm_campaign=Badge_Grade) [![Coverage Status](https://coveralls.io/repos/github/rayk/open-criticide/badge.svg?branch=master)](https://coveralls.io/github/rayk/open-criticide?branch=master)
 ---
 # Open Criticide
 
