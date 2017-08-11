@@ -1,7 +1,7 @@
 {
   "name": "criticide",
   "productName": "Criticide",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Probabilistic bayesian modelling for critical decisions in complex systems.",
   "main": "./src/index.js",
   "scripts": {
@@ -19,7 +19,7 @@
   "repositories": [
     {
       "type": "git",
-      "url": "https://github.com/rayk/criticide"
+      "url": "https://github.com/rayk/open-criticide"
     }
   ],
   "engines": {
@@ -87,8 +87,10 @@
       "electronInstallerDebian": {},
       "electronInstallerRedhat": {},
       "github_repository": {
-        "owner": "",
-        "name": ""
+        "owner": "rayk",
+        "name": "open-criticide",
+        "draft": "true",
+        "pre-release": "true"
       },
       "windowsStoreConfig": {
         "packageName": "",

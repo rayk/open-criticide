@@ -6,10 +6,17 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## Unreleased
 
-## 0.0.1 2017-July-??
+## 0.0.3 2017-Aug-11
+Base release.
 ### Added
+- Nothing Added.
 ### Changed
+- Nothing Changed.
 ### Deprecated
+- Nothing Deprecated.
 ### Removed
+- Nothing Removed.
 ### Fixed
+- Nothing Fixed.
 ### Security
+- No Outstanding Security Issues.
