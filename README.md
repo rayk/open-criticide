@@ -2,7 +2,7 @@
 ---
 # Open Criticide
 
-### Project Task
+### Project Getting Started
 Working with the code base is detailed in the contributing guide. At a top level
 the following task have been defined:
 
@@ -10,4 +10,4 @@ the following task have been defined:
 - ``yarn test`` Runs the test suite.
 - ``yarn run package`` or ``electron-forge package`` builds a stand alone application package.
 
-
+You can deep drive on contributing in the [guide](https://github.com/rayk/open-criticide/blob/develop/CONTRIBUTING.md) and the [wiki](https://github.com/rayk/open-criticide/wiki/Realisation-Perspective) in addition [other things](https://github.com/rayk/open-criticide/wiki) contains the implementation rational and perspective.
