@@ -1,0 +1,18 @@
+{
+  "project": "criticide",
+  "envelope-start": "2017-12-12",
+  "top-start": "1900000.00",
+  "branch": "master",
+  "snapshot": [
+    {
+      "date": "2017-12-14",
+      "commit": "#4854fb1",
+      "cost": "23423.00"
+    },
+    {
+      "date": "2017-12-18",
+      "tag": "#fa8302",
+      "cost": "28473.00"
+    }
+  ]
+}
