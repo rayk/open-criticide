@@ -5,7 +5,73 @@
 Any process that does not work against these principals can move the ball forward.
 Only a team that shares practices that leverage the principals delivers outcomes.
 
-### Contents
+### Our Pledge
+
+In the interest of fostering an open and welcoming environment, we as
+contributors and maintainers pledge to making participation in our project and
+our community a harassment-free experience for everyone, regardless of age, body
+size, disability, ethnicity, gender identity and expression, level of experience,
+nationality, personal appearance, race, religion, or sexual identity and
+orientation.
+
+### Our Standards
+
+Examples of behavior that contributes to creating a positive environment
+include:
+
+* Using welcoming and inclusive language
+* Being respectful of differing viewpoints and experiences
+* Gracefully accepting constructive criticism
+* Focusing on what is best for the community
+* Showing empathy towards other community members
+
+Examples of unacceptable behavior by participants include:
+
+* The use of sexualized language or imagery and unwelcome sexual attention or
+  advances
+* Trolling, insulting/derogatory comments, and personal or political attacks
+* Public or private harassment
+* Publishing others' private information, such as a physical or electronic
+  address, without explicit permission
+* Other conduct which could reasonably be considered inappropriate in a
+  professional setting
+
+### Our Responsibilities
+
+Project maintainers are responsible for clarifying the standards of acceptable
+behavior and are expected to take appropriate and fair corrective action in
+response to any instances of unacceptable behavior.
+
+Project maintainers have the right and responsibility to remove, edit, or
+reject comments, commits, code, wiki edits, issues, and other contributions
+that are not aligned to this Code of Conduct, or to ban temporarily or
+permanently any contributor for other behaviors that they deem inappropriate,
+threatening, offensive, or harmful.
+
+### Scope
+
+This Code of Conduct applies both within project spaces and in public spaces
+when an individual is representing the project or its community. Examples of
+representing a project or community include using an official project e-mail
+address, posting via an official social media account, or acting as an appointed
+representative at an online or offline event. Representation of a project may be
+further defined and clarified by project maintainers.
+
+### Enforcement
+
+Instances of abusive, harassing, or otherwise unacceptable behavior may be
+reported by contacting the project team. All
+complaints will be reviewed and investigated and will result in a response that
+is deemed necessary and appropriate to the circumstances. The project team is
+obligated to maintain confidentiality with regard to the reporter of an incident.
+Further details of specific enforcement policies may be posted separately.
+
+Project maintainers who do not follow or enforce the Code of Conduct in good
+faith may face temporary or permanent repercussions as determined by other
+members of the project's leadership.
+
+
+## Contents
 Part 1, 2 and 3 are essential reading for contributing, together they answer
 what the application is, how to contribute and where in the code base
 specific parts of the implementation are located.
@@ -14,7 +80,7 @@ The later parts provide definitions and explanations of the foundations
 that unpin the day to day tactical actions. It is worth these before
 making a pull request that changes the meaning part 1, 2 or three.
 
-#### 1. Application Purpose
+### 1. Application Purpose
 Time, energy and effort expenditure in any software development activity is considerable.
 There needs to exist arguable bases for a payoff that far exceeds
 (100 Times) any expectation of cost, factoring in the human tendency to
@@ -24,7 +90,7 @@ over inflate the payoff and under estimate the cost magnitudes.
 
 - [Use Case Boundary](#use-case-boundary)
 
-#### 2. Practice Area
+### 2. Practice Area
 The cognitive weight of a code base slows implementation and contribution.
 The tactical actions in the following areas aim to avoid accidental complexity
 while unpacking the essential complexity, the application requires.
@@ -37,7 +103,7 @@ while unpacking the essential complexity, the application requires.
 
 - [Release & Monitor](release-&-monitor)
 
-#### 3. Implementation Specifics
+### 3. Implementation Specifics
 A definitive map of the components, elements and structures along with an
 explanation of the implementation decisions which are not immediately self-evident.
 
@@ -47,7 +113,7 @@ explanation of the implementation decisions which are not immediately self-evide
 
 - [Code Structure](code-structure)
 
-#### 4. Invariant Development Constraints
+### 4. Invariant Development Constraints
 Beyond differences in individual abilities and experience there are
 self-evident constraints which limit every software development effort.
 Captured in a series of axioms these give rise to practices and process
@@ -59,7 +125,7 @@ which can be applied to deliver tangible outcomes.
 
 - [Defaults to Misunderstanding](#defaults-to-misunderstanding)
 
-#### 5. Reference Materials & Guides
+### 5. Reference Materials & Guides
 Not forgetting the nickle and dime issues that can easily cost a few hours here and there, this
 section contains guide on how to do the simple stuff that is just needed
 to get the show on the road.
@@ -70,34 +136,34 @@ to get the show on the road.
 
 ---
 
-##### Value Statement
+#### Value Statement
 
-##### Use Case Boundary
+#### Use Case Boundary
 
-##### Work Unit Sizing
+#### Work Unit Sizing
 >How big or small should a task be? When should it be broken up into individual parts?
 Should the individual parts stand alone? Does it even matter,
 surely it depends on what the contributor?
 
-##### Design & Code Idioms
+#### Design & Code Idioms
 > Why is this imported separately? Can't we just inline this? It was available,
 so I just used it.  It is just a string that needs to be formatted?
 Is it not cleaner that I break it all out to different files?
 
-##### Commit Build Review
+#### Commit Build Review
 >Do I branch or folk? When and what should commit? What needs to be in the pull request.
 Is the PR stale? Is it going to be rejected? Should I reject it?
 
-##### Release & Monitor
+#### Release & Monitor
 
-##### User Interface Decomposition
+#### User Interface Decomposition
 
-##### Architectural Decision History
+#### Architectural Decision History
 
-##### Code Structure
+#### Code Structure
 >Where do I find? How do I run test and turn up the app locally?
 
-###### `/test` directory
+##### `/test` directory
 Houses all test for the application, grouped into four areas:
 
 `../guiDriver`
@@ -120,13 +186,13 @@ Standalone unit test live here.
 
 Integration or cross cutting test live here.
 
-##### Cognitive Load Barrier
+#### Cognitive Load Barrier
 
-##### Heuristics & Biases Propensity
+#### Heuristics & Biases Propensity
 
-##### Defaults to Misunderstanding
+#### Defaults to Misunderstanding
 
-##### Development Environment Setup
+#### Development Environment Setup
 > Ideally a project is arranged that regardless of the tools a developer should be able
 to deliver a result with a simple text editor.
 
