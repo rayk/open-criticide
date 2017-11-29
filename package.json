@@ -87,8 +87,8 @@
       "electronInstallerDebian": {},
       "electronInstallerRedhat": {},
       "github_repository": {
-        "owner": "",
-        "name": ""
+        "owner": "rayk",
+        "name": "open-criticide"
       },
       "windowsStoreConfig": {
         "packageName": "",
@@ -100,10 +100,12 @@
     "assert-plus": "^1.0.0",
     "electron-compile": "^6.4.1",
     "electron-devtools-installer": "^2.2.0",
+    "electron-forge": "^4.1.5",
     "electron-localshortcut": "^2.0.2",
     "electron-log": "^2.2.7",
-    "electron-updater": "^2.10.1",
+    "electron-updater": "^2.16.1",
     "electron-window-state": "^4.1.1",
+    "global": "^4.3.2",
     "prop-types": "^15.5.10",
     "ramda": "^0.24.1",
     "ramda-adjunct": "^1.12.0",
